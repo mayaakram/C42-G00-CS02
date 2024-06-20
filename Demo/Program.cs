@@ -161,7 +161,40 @@ namespace Day_02
 
             #endregion
 
+            #region try ,parse video 
+            #region Convert and its clases
+            ///*convert is a class containing set of methods used             // * for casting from datatype to another */
+            //Console.WriteLine("enter your name");
+            //string Name = Console.ReadLine() ?? "NA";            //Console.WriteLine(Name);
+            //Console.WriteLine("enter your age");
+            //int Age = Convert.ToInt32(Console.ReadLine() ?? "NA");            //Console.WriteLine(Age);
 
+            //Console.WriteLine("enter your salary");            //decimal Salary = Convert.ToDecimal(Console.ReadLine() ?? "NA");
+            //Console.WriteLine(Salary);
+            #endregion
+
+            #region parse (converting to the caller datatype)
+            //Console.WriteLine("enter your name");            //string Name = Console.ReadLine() ?? "NA";
+            //Console.WriteLine(Name);
+            //Console.WriteLine("enter your age");            //int Age = int.Parse(Console.ReadLine() ?? "NA");
+            //Console.WriteLine(Age);
+            //Console.WriteLine("enter your salary");            //decimal Salary = decimal.Parse(Console.ReadLine() ?? "NA");
+            //Console.WriteLine(Salary);
+            #endregion
+            #region 3yoop explicit casting using(parse,convert)
+            //string X = "5";
+            //int Y=int.Parse(X);            //Console.WriteLine(Y);
+            //  string X = "true";
+            // bool Y = Convert.ToBoolean(X);            // Console.WriteLine(Y);
+            /* lw value tmam --casting tmam */
+            //   string Z = "maya";
+            // int T=int.Parse(Z); //error            // Console.WriteLine(T);
+            //string X = "maya";
+            //bool Y = Convert.ToBoolean(X);//error            //Console.WriteLine(Y);
+            /*lw value m4 tmam b2a --casting m4 tmam*/
+            #endregion
+
+            #endregion
 
         }
 
