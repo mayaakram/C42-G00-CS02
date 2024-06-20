@@ -31,10 +31,24 @@
             //Console.WriteLine($"string is {FullString} ,substring is {SubString}");
             #endregion
 
-            #region ques5            // 5 - Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            #region ques5      
+            // 5 - Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
             //int X = 6;
             //int Y = X;            //++X;
             //Console.WriteLine(Y);//still 6 because its only a copy of the value
+            #endregion
+
+
+            #region ques6       
+            //6- Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen    
+           
+  //          Point P1;  //          P1 = new Point();
+
+            //          Point P2;
+            //          P2 = new Point();
+            //          P2 = P1;
+            //          P1.X = 10;  //          Console.WriteLine(P2.X); //10  beacuse 2 variables refrence the same object(bs hya btdy zero//)
+
             #endregion
         }
     }
