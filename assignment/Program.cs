@@ -25,6 +25,11 @@
             //float Result = X + Y;      //Console.WriteLine(Result);//5.6
             #endregion
 
+            #region ques4
+            //   4 - Write C# program that Extract a substring from a given string.
+            //string FullString = "hello world session 2 c sharp";      //string SubString = FullString.Substring(12, 7);
+            //Console.WriteLine($"string is {FullString} ,substring is {SubString}");
+            #endregion
         }
     }
 }
