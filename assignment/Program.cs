@@ -112,6 +112,13 @@ Today's date : 20 – 11 – 2001
             //Console.WriteLine($"date is: {day} - {month} - {year}");
             #endregion
 
+            #region ques12
+            //ques 12  c)  The event is on 06/14/2024
+            /* ques 13    int d;
+             * d= Convert.ToInt32(!(30 < 20));              *   Console.WriteLine(d);
+             * f) A value 1 will be assigned to d.             */
+            #endregion
+
 
         }
     }
