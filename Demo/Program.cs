@@ -90,7 +90,7 @@ namespace Day_02
             /////ternary operator     //int X = 10, Y = 5;
             //string Message = X > Y ? "X is more than Y" : X < Y ? "X is less than Y" : "x equals Y";
             //Console.WriteLine(Message);
-            #endregion 
+            #endregion
             #endregion
 
             #region operators periority [precedence] video            ////operators periority [precedence] and asscoitivity[lw same priority yb2a from left to right]
@@ -116,6 +116,51 @@ namespace Day_02
             /////            //message = $"equation{x}+{y}={x + y}";
             //Console.WriteLine(message);
             #endregion
+
+            #region explicit vs implicit casting video
+            #region implicit casting
+            //int X = 8;
+            //long Y = X; //implicit casting [safe casting]   //Console.WriteLine(Y); //8  
+
+            #endregion
+
+            #region Explicit Casting ex1 
+            //long X = 8;
+            //int Y = (int)X; //explicit casting[unsafe casting]   //Console.WriteLine(Y);
+            #endregion
+
+            #region explicit casting ex2
+            //long X = 43224565675;   //int Y = (int)X;  //[unsafe explicit casting]
+            //Console.WriteLine(Y);//carbage value [overflow]
+            #endregion
+
+            //2 ways to get ride of ec 1.checked 2.defensive code 
+            #region 1.checked and unchecked to through exception  
+            //long X = 43224568885675;
+            //checked
+            //{   //    int Y = (int)X;
+            //    unchecked   //    {
+
+            //        Console.WriteLine(Y);   //    }
+
+            //}
+            #endregion
+            #region 2.defensive code
+            //long X = 767788678;
+            //int Y = X.GetType() == typeof(int) ? (int)X : 0;   //Console.WriteLine(Y);
+
+            #endregion
+            #region inttodouble implicit casting
+            //int X = 5;   //double Y = X; /*(double)*///implicit casting
+            //Console.WriteLine(Y);
+            #endregion
+            #region doubletoint explicit casting
+            //double X = 5.5;   //int Y = (int)X; //explicit casting [unsafe]
+            //Console.WriteLine(Y); //5 bs
+            #endregion
+
+            #endregion
+
 
         }
 
