@@ -196,6 +196,15 @@ namespace Day_02
 
             #endregion
 
+            #region TryParse video //try parse dont through exceptions//
+            //if casting okay it returns true and result of casting in output parameter //if casting fails it returns false and 0(default) in the output parameter
+            //output parameter mbyrg34 b 2edo fadya// //bardo b cast ll caller fr tryparse
+            //string X = "maya";
+            //int Y; //bool flag= int.TryParse(X,  out Y);
+            //Console.WriteLine(Y);//zero //Console.WriteLine(flag);//false
+
+            #endregion
+
         }
 
 
