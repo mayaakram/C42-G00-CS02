@@ -41,13 +41,22 @@
 
             #region ques6       
             //6- Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen    
-           
-  //          Point P1;  //          P1 = new Point();
+
+            //          Point P1;  //          P1 = new Point();
 
             //          Point P2;
             //          P2 = new Point();
             //          P2 = P1;
             //          P1.X = 10;  //          Console.WriteLine(P2.X); //10  beacuse 2 variables refrence the same object(bs hya btdy zero//)
+
+            #endregion
+
+
+            #region ques7       
+            // 7 - Write C# program that take two string variables and print them as one variable 
+
+            //string Message1 = "maya";            //string Message2 = "akram";
+            //Console.WriteLine($"{Message1} {Message2}");
 
             #endregion
         }
