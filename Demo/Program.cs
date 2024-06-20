@@ -93,6 +93,17 @@ namespace Day_02
             #endregion 
             #endregion
 
+            #region operators periority [precedence] video            ////operators periority [precedence] and asscoitivity[lw same priority yb2a from left to right]
+            ///*
+            // 1.unary operator (prefix)            // 2.Round braces()
+            // 3. * / %            // 4. + -
+            // */
+            //int a = 20;            //int b = 10;
+            //int c = 15;            //int d = 5;
+            //int Equation;
+            //Equation=(a+b)*c/d;            //Equation = ((a + b) * c )/ d;
+            #endregion
+
 
         }
 
