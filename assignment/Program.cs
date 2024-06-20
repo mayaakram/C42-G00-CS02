@@ -85,6 +85,34 @@
             //Bmi = (Weight) / (Height * Height);
             //Console.WriteLine(Bmi);
             #endregion
+
+            #region ques10
+            /*  10- Write a program that uses the ternary operator to check if the temperature is too hot, too cold,or just good. Assign the result in variable then display the result. Assume that below 10 degrees is "Just Cold",
+         above 30 degrees is "Just Hot", and anything else is "Just Good". */
+
+            //int Temp;
+            //Temp = int.Parse(Console.ReadLine() ?? "0");
+            //string Message = Temp < 10 ? "just cold" : Temp > 30 ? "just hot" : "just good";
+            //Console.WriteLine(Message);
+            #endregion
+
+
+            #region ques11
+            /*
+11- Write a program that takes the date from user and displays it in various formats using string interpolation.Ex :
+Today’s date : 20 , 11 , 2001Today's date : 20 / 11 / 2001
+Today's date : 20 – 11 – 2001
+    */
+            //Console.Write("Enter the day");            //int day = int.Parse(Console.ReadLine() ?? "0");
+            //Console.Write("Enter the month");
+            //int month = int.Parse(Console.ReadLine() ?? "0");
+            //Console.Write("Enter the year");            //int year = int.Parse(Console.ReadLine() ?? "0");
+
+            //Console.WriteLine($"date is {day} , {month} , {year}");            //Console.WriteLine($"date is {day} / {month} / {year}");
+            //Console.WriteLine($"date is: {day} - {month} - {year}");
+            #endregion
+
+
         }
     }
 }
