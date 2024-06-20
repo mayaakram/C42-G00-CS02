@@ -123,6 +123,15 @@ Today's date : 20 – 11 – 2001
             // f) A value 1 will be assigned to d. 
             #endregion
 
+            #region ques 14
+            /* 
+             *              *  Console.WriteLine(13 / 2 + " " + 13 % 2);
+             *              * a) 6 1
+             *              * Console.WriteLine((13.0 / 2) + " " + 13 % 2);
+             *              * 6.5 1
+            */
+            #endregion
+
 
         }
     }
