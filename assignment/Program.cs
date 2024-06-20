@@ -12,6 +12,13 @@
             //Console.WriteLine(Number);
             #endregion
 
+            #region ques2
+            //  2 - Write C# program that Convert a string to an integer, but the string contains non-numeric characters. And mention what will happen 
+            //string X = "maya";            //int Y;
+            //bool Flag = int.TryParse(X, out Y);            //Console.WriteLine(Flag); //Flag= false //y =0
+            //Console.WriteLine(Y);
+            #endregion
+
         }
     }
 }
