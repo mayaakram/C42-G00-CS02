@@ -119,7 +119,8 @@ Today's date : 20 – 11 – 2001
              * f) A value 1 will be assigned to d.             */
             #endregion
 
-            #region ques 13  // f) A value 1 will be assigned to d. 
+            #region ques 13 
+            // f) A value 1 will be assigned to d. 
             #endregion
 
 
