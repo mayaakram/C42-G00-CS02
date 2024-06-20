@@ -30,6 +30,12 @@
             //string FullString = "hello world session 2 c sharp";      //string SubString = FullString.Substring(12, 7);
             //Console.WriteLine($"string is {FullString} ,substring is {SubString}");
             #endregion
+
+            #region ques5            // 5 - Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int X = 6;
+            //int Y = X;            //++X;
+            //Console.WriteLine(Y);//still 6 because its only a copy of the value
+            #endregion
         }
     }
 }
