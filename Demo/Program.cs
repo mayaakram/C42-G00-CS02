@@ -25,7 +25,16 @@ namespace Day_02
 
             #endregion
 
-           
+
+            #region fractions and discard video
+            /////fractions ..default value for fractions is double so we need f m to specify the dt
+            //float X = 5.3F; //double Y = 4.43;
+            //decimal Z = 9999.88M;
+            /////discard (just for redability) but printed as 100000000 3ady //long Number = 100_000_000;
+            //Console.WriteLine(Number);
+            #endregion
+
+            
 
         }
 
