@@ -19,6 +19,12 @@
             //Console.WriteLine(Y);
             #endregion
 
+            #region ques3
+            //  3 - Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            //float X = 2.3F;      //float Y = 3.3F;
+            //float Result = X + Y;      //Console.WriteLine(Result);//5.6
+            #endregion
+
         }
     }
 }
