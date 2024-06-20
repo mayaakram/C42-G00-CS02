@@ -132,6 +132,9 @@ Today's date : 20 – 11 – 2001
             */
             #endregion
 
+            #region ques 15 
+            //  d) 7 7 
+            #endregion
 
         }
     }
