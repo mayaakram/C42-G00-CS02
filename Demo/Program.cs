@@ -104,6 +104,18 @@ namespace Day_02
             //Equation=(a+b)*c/d;            //Equation = ((a + b) * c )/ d;
             #endregion
 
+            #region string formatting
+            /////string formatting
+            ///// equation:3+4=7            //int x = 3, y = 4;
+            //string message = "equation" + x + "+" + y + "=" + (x + y);            //Console.WriteLine(message);
+
+            /////fe kza tare2a tanya 34an concat bel + we74 awy 3ala memory 34an string is fixed array fa kol ma ygm4 y7ot fr string gded             /////1. composite string
+            // message =string.Format("equation:{0}+{1}={2}",x,y,(x + y));
+            /////2.string interpolation            /////$ manupulation oprator
+            /////js -- message =`equation :${x}+${y}=${x+y}`            /////fe c# ashl bkteer w b7ot $ mara wa7da bs 
+            /////            //message = $"equation{x}+{y}={x + y}";
+            //Console.WriteLine(message);
+            #endregion
 
         }
 
